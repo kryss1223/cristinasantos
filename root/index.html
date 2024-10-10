@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>Cristina Santos Portfolio</title>
+</head>
+<body>
+    <header>
+        <section class="headercard">
+            <nav class="navbar">
+                <a>About me</a>
+                <a>Portfolio</a>
+                <a>Contacto</a>
+            </nav>
+            <div class="headerTitle">
+                <h1 id="titleName" style="font-size: 40px;">Cristina <br>Santos</h1>
+                <h6 id="titleDesc">Junior Developer</h6>
+            </div>
+            <img class="headerImg" src="img/Bg_portfolio.png" alt="Imagen perfil">
+            <div class="headerRrss">
+                <a>Instagram</a>
+                <a>Linkedin</a>
+            </div>
+        </section>
+        <div class="wave" height: 300px; overflow: hidden;" >
+            <svg viewBox="0 0 500 150" preserveAspectRatio="none" ">
+                <path d="M0.00,50.10 C150.00,150.33 246.80,5.49 500.00,50.10 L500.00,150.33 L0.00,150.33 Z" style="stroke: none; fill: rgb(255, 255, 255);"></path>
+            </svg>
+        </div>
+        
+    </header>
+
+    <main>
+        <section class="container">
+            <h1 class="titleContainer">ABOUT ME</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.</p>
+                <div class="showSkill">
+                    <h3>Frontend</h3>
+                    <div class="skillSet">
+                        <img src="img/html.svg">
+                        <img src="img/css.svg">
+                        <img src="img/javascript.svg">
+                    </div>
+                </div>
+
+                <div class="showSkill">
+                    <h3>Backend</h3>
+                    <div class="skillSet">
+                        <img src="img/python.svg">
+                        <img src="img/sql.svg">
+                        <img src="img/java.svg">
+                        <img src="img/php.svg">
+                    </div>
+                </div>
+        </section>
+
+        <section class="container" id="contTwo">
+            <h1 class="titleContainer">PORTFOLIO</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolortum ultric.</p>
+            <nav class="navProjects">
+                <a href="#">WEB DESING</a>
+                <a href="#">DESARROLLO</a>
+            </nav>
+            <div class="imgProjects">
+                <img src="C:\Users\crist\Pictures\women_prof.jpg" alt="img1">
+                <img src="C:\Users\crist\Pictures\women_prof.jpg" alt="img2" style="margin: 0 3%;">
+                <img src="C:\Users\crist\Pictures\women_prof.jpg">
+            </div>
+            <svg class="waveMini" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#FFFFFF" fill-opacity="1" d="M0,192L60,170.7C120,149,240,107,360,112C480,117,600,171,720,176C840,181,960,139,1080,128C1200,117,1320,139,1380,149.3L1440,160L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
+        </section>
+        
+        <section class="containerMini">
+            </div>
+            <div class="cardContMini">
+                <img src="img/pcimg.svg" class="imgContMini">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>
+                <img src="img/pcimg2.svg" class="imgContMini">
+            </div>
+        </section>
+
+        <section class="container" id="footCont">
+            <h2>¡Envíame un email!</h2>
+        <form class="footForm" action="#" method="POST">
+            <input type="text" id="name" name="name" maxlength="30" value="Nombre" required>
+
+            <input type="email" id="email" name="email" value="email@gmail.com" required>
+
+            <textarea id="message" name="message" maxlength="400"  required>Mensaje...</textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+        </section>
+    </main>
+</body>
+</html>
