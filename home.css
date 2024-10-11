@@ -56,7 +56,7 @@ header{
 
 /* ESTILO CONTENEDOR GENERAL */
 .container{
-    height: 750px; /* Establece la altura de la primera caja en px del height */
+    height: 800px; /* Establece la altura de la primera caja en px del height */
     align-items: center;
     justify-content: center;
     padding-top: 3% ;
@@ -265,10 +265,10 @@ header{
         background-attachment: fixed;
     }
     .container{
-        height: 650px;
+        height: 800px;
     }
     .containerMini{
-        height: 150px;
+        height: 200px;
         background-image: url('img/bckGradient.png') ;
         background-position:center;
         background-size: cover;
