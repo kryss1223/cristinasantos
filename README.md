@@ -1,18 +1,28 @@
 👋 Hi, I’m Cristina Santos.
 
-Skills:
+I'm currently working on:
 
-Languages: Java, Python
+🔧 Task automation on Linux using Bash
 
-Frameworks: Django
+🐧 Server and network administration (Ubuntu, Windows Server)
 
-Databases: PostgreSQL, MySQL, Microsoft SQL Server
+🧠 SQL and database design with complex queries
 
-Architectures: Azure
+🛠️ Python tools for network monitoring
 
-Version Control: Git
 
-Operating Systems: Linux & Windows.
+Always curious and always learning — next up on my list:
+
+🔄 Professional Git/GitHub workflows
+
+☁️ AWS
+
+⚡ Apache Spark
+
+🐍 Scala
+
+I believe in energy, growth, and doing what it takes to follow my path ✨
+
 
 
 📫 How to reach me:
